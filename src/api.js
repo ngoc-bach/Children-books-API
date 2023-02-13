@@ -5,6 +5,8 @@ const app = express();
 const router = express.Router();
 
 router.get('/', (req, res) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   res.json([
     {
       "id": 1,
@@ -174,12 +176,6 @@ router.get('/', (req, res) => {
   );
 });
 
-
-app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "http://localhost:3000");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
-});
 
 app.use(`/.netlify/functions/api/books`, router);
 
