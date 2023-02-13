@@ -174,7 +174,11 @@ router.get('/', (req, res) => {
   );
 });
 
-app.use(`/.netlify/functions/api/books`, router);
+
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  next();
+});
 
 module.exports = app;
 module.exports.handler = serverless(app);
