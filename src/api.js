@@ -180,5 +180,7 @@ app.use((req, res, next) => {
   next();
 });
 
+app.use(`/.netlify/functions/api/books`, router);
+
 module.exports = app;
 module.exports.handler = serverless(app);
