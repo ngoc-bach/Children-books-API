@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
   res.json([
     {
       "id": 1,
-      "img": "https://images-fe.ssl-images-amazon.com/images/I/81jS0ENjenL._AC_UL600_SR600,400_.jpg",
+      "img": "https://m.media-amazon.com/images/I/51aBikQ9l1L._SX258_BO1,204,203,200_QL70_ML2_.jpg",
       "author": "Scott Pape",
       "title": "Barefoot Kids",
       "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae atque itaque ea nobis accusamus? Aperiam provident dolores error earum nihil animi! Est eos quos porro nostrum magni odit ullam modi!",
@@ -21,7 +21,7 @@ router.get('/', (req, res) => {
    },
    {
       "id": 2,
-      "img": "https://images-fe.ssl-images-amazon.com/images/I/618lIfMrw-L._AC_UL600_SR600,400_.jpg",
+      "img": "https://m.media-amazon.com/images/I/519LUQpuhcL._SY344_BO1,204,203,200_QL70_ML2_.jpg",
       "author": "Tui Sutherland",
       "title": "Moon Rising",
       "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae atque itaque ea nobis accusamus? Aperiam provident dolores error earum nihil animi! Est eos quos porro nostrum magni odit ullam modi!",
@@ -32,7 +32,7 @@ router.get('/', (req, res) => {
    },
    {
       "id": 3,
-      "img": "https://images-fe.ssl-images-amazon.com/images/I/71YGTNVYQAL._AC_UL600_SR600,400_.jpg",
+      "img": "https://m.media-amazon.com/images/I/51qftyVciYL._SX258_BO1,204,203,200_QL70_ML2_.jpg",
       "author": "Marion Cocklico",
       "title": "No More Nappies",
       "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae atque itaque ea nobis accusamus? Aperiam provident dolores error earum nihil animi! Est eos quos porro nostrum magni odit ullam modi!",
@@ -43,7 +43,7 @@ router.get('/', (req, res) => {
    },
    {
       "id": 4,
-      "img": "https://images-fe.ssl-images-amazon.com/images/I/71sREBV3LDL._AC_UL600_SR600,400_.jpg",
+      "img": "https://m.media-amazon.com/images/I/410UeprFuUL._SX258_BO1,204,203,200_QL70_ML2_.jpg",
       "author": "Bluey",
       "title": "Bluey",
       "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae atque itaque ea nobis accusamus? Aperiam provident dolores error earum nihil animi! Est eos quos porro nostrum magni odit ullam modi!",
@@ -54,7 +54,7 @@ router.get('/', (req, res) => {
    },
    {
       "id": 5,
-      "img": "https://images-fe.ssl-images-amazon.com/images/I/81vTRhCo4sL._AC_UL600_SR600,400_.jpg",
+      "img": "https://m.media-amazon.com/images/I/61RZ0yfZi5L._SX258_BO1,204,203,200_QL70_ML2_.jpg",
       "author": "Patrice Karst",
       "title": "The Invisible String",
       "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae atque itaque ea nobis accusamus? Aperiam provident dolores error earum nihil animi! Est eos quos porro nostrum magni odit ullam modi!",
@@ -65,7 +65,7 @@ router.get('/', (req, res) => {
    },
    {
       "id": 6,
-      "img": "https://images-fe.ssl-images-amazon.com/images/I/81x4+jwTdFL._AC_UL600_SR600,400_.jpg",
+      "img": "https://m.media-amazon.com/images/I/517app0IGvL._SY344_BO1,204,203,200_QL70_ML2_.jpg",
       "author": "Sarah Allen",
       "title": "Jumping Joeys",
       "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae atque itaque ea nobis accusamus? Aperiam provident dolores error earum nihil animi! Est eos quos porro nostrum magni odit ullam modi!",
@@ -76,7 +76,7 @@ router.get('/', (req, res) => {
    },
    {
       "id": 7,
-      "img": "https://images-fe.ssl-images-amazon.com/images/I/91gO2A87g+L._AC_UL600_SR600,400_.jpg",
+      "img": "https://m.media-amazon.com/images/I/51NnxrCKFhL._SX258_BO1,204,203,200_QL70_ML2_.jpg",
       "author": "Paul Davies",
       "title": "Hogwarts Legacy",
       "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae atque itaque ea nobis accusamus? Aperiam provident dolores error earum nihil animi! Est eos quos porro nostrum magni odit ullam modi!",
@@ -87,7 +87,7 @@ router.get('/', (req, res) => {
    },
    {
       "id": 8,
-      "img": "https://images-fe.ssl-images-amazon.com/images/I/91ml6NFB4jL._AC_UL600_SR600,400_.jpg",
+      "img": "https://m.media-amazon.com/images/I/61hMGh6vijL.jpg",
       "author": "Roald Dahl",
       "title": "Matilda",
       "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae atque itaque ea nobis accusamus? Aperiam provident dolores error earum nihil animi! Est eos quos porro nostrum magni odit ullam modi!",
@@ -98,7 +98,7 @@ router.get('/', (req, res) => {
    },
    {
       "id": 9,
-      "img": "https://images-fe.ssl-images-amazon.com/images/I/91drTBmtWzL._AC_UL300_SR300,200_.jpg",
+      "img": "https://m.media-amazon.com/images/I/61kjB53dwUL.jpg",
       "author": "Roald Dahl",
       "title": "Charlie and the Chocolate Factory",
       "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae atque itaque ea nobis accusamus? Aperiam provident dolores error earum nihil animi! Est eos quos porro nostrum magni odit ullam modi!",
@@ -109,7 +109,7 @@ router.get('/', (req, res) => {
    },
    {
       "id": 10,
-      "img": "https://images-fe.ssl-images-amazon.com/images/I/41DDRSq1BEL._AC_UL300_SR300,200_.jpg",
+      "img": "https://m.media-amazon.com/images/I/41DDRSq1BEL._SX258_BO1,204,203,200_QL70_ML2_.jpg",
       "title": "That's Not My Koala",
       "author": "Fiona Watt",
       "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae atque itaque ea nobis accusamus? Aperiam provident dolores error earum nihil animi! Est eos quos porro nostrum magni odit ullam modi!",
@@ -120,7 +120,7 @@ router.get('/', (req, res) => {
    },
    {
       "id": 11,
-      "img": "https://images-fe.ssl-images-amazon.com/images/I/51GkdA8vSCL._AC_UL600_SR600,400_.jpg",
+      "img": "https://m.media-amazon.com/images/I/51GkdA8vSCL._SX258_BO1,204,203,200_QL70_ML2_.jpg",
       "title": "Babys Very First Black and White Little Library",
       "author": "Usborne",
       "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae atque itaque ea nobis accusamus? Aperiam provident dolores error earum nihil animi! Est eos quos porro nostrum magni odit ullam modi!",
@@ -131,7 +131,7 @@ router.get('/', (req, res) => {
    },
    {
       "id": 12,
-      "img": "https://images-fe.ssl-images-amazon.com/images/I/61PHM7D1RXL._AC_UL600_SR600,400_.jpg",
+      "img": "https://m.media-amazon.com/images/I/41fYgnxipPL._SY344_BO1,204,203,200_QL70_ML2_.jpg",
       "title": "I Choo Choo Choose You: Happy Valentines",
       "author": "Neila Stewart",
       "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae atque itaque ea nobis accusamus? Aperiam provident dolores error earum nihil animi! Est eos quos porro nostrum magni odit ullam modi!",
@@ -142,7 +142,7 @@ router.get('/', (req, res) => {
    },
    {
       "id": 13,
-      "img": "https://images-fe.ssl-images-amazon.com/images/I/81ET-I0zZgL._AC_UL600_SR600,400_.jpg",
+      "img": "https://m.media-amazon.com/images/I/51Pn1Jx+fFL.jpg",
       "title": "Crown of Midnight",
       "author": "Sarah J. Maas",
       "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae atque itaque ea nobis accusamus? Aperiam provident dolores error earum nihil animi! Est eos quos porro nostrum magni odit ullam modi!",
@@ -153,7 +153,7 @@ router.get('/', (req, res) => {
    },
    {
       "id": 14,
-      "img": "https://images-fe.ssl-images-amazon.com/images/I/71IVHSZbfTL._UX300__PJku-sticker-v7,TopRight,0,-50_AC_UL600_SR600,400_.jpg",
+      "img": "https://m.media-amazon.com/images/I/41VG7VvhrFL._SY346_.jpg",
       "title": "Dave the Villager 46",
       "author": "Dave Villager",
       "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae atque itaque ea nobis accusamus? Aperiam provident dolores error earum nihil animi! Est eos quos porro nostrum magni odit ullam modi!",
@@ -164,7 +164,7 @@ router.get('/', (req, res) => {
    },
    {
       "id": 15,
-      "img": "https://images-fe.ssl-images-amazon.com/images/I/816MFUTuBYL._AC_UL600_SR600,400_.jpg",
+      "img": "https://m.media-amazon.com/images/I/51oTlnyLKwL.jpg",
       "title": "The Lightning Thief",
       "author": "Rick Riordan",
       "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae atque itaque ea nobis accusamus? Aperiam provident dolores error earum nihil animi! Est eos quos porro nostrum magni odit ullam modi!",
